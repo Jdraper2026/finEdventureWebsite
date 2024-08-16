@@ -1,0 +1,7 @@
+1. Navigate to the folder containing the codebase in finder/file explorer 
+2. Open a terminal/console at that folder
+3 Python. If you have python run the following command: python3 -m http.server
+3 PHP. If you have PHP run the following command: php -S localhost:8080
+4 Python. Open a browser and enter the URL: http://localhost:8000/
+4 PHP. Open a browser and enter the URL: http://localhost:8080/
+5. The website should have loaded to the index page (homepage)
