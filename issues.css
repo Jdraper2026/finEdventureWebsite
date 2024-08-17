@@ -355,6 +355,7 @@
   word-break: break-word;
   z-index: 3;
   font-family: inherit;
+  font-weight: normal
 }
 .issues,
 .right-pane,
