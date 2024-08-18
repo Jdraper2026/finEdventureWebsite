@@ -1,6 +1,6 @@
 .finedventure {
   margin: 0;
-  width: 482px;
+  width: 30.125rem;
   position: relative;
   font-size: inherit;
   line-height: 150%;
@@ -19,7 +19,7 @@
   margin: 0;
   align-self: stretch;
   font-size: var(--font-size-16xl);
-  line-height: 53px;
+  line-height: 3.313rem;
   font-weight: 700;
   font-family: var(--font-raleway);
   color: rgba(10, 121, 104, 0.8);
@@ -30,7 +30,7 @@
   font-family: var(--font-lato);
   color: var(--main-text);
   display: inline-block;
-  min-width: 103px;
+  min-width: 6.438rem;
 }
 .app-sign-in {
   flex-direction: row;
@@ -44,9 +44,9 @@
   justify-content: flex-start;
 }
 .greeting {
-  width: 266px;
+  width: 16.625rem;
   flex-direction: column;
-  gap: 9px;
+  gap: 0.562rem;
 }
 .welcome-message {
   align-self: stretch;
@@ -59,11 +59,11 @@
   font-family: var(--font-lato);
   color: var(--main-text);
   text-align: left;
-  min-width: 33px;
+  min-width: 2.063rem;
 }
 .frame-child {
-  height: 45px;
-  width: 521px;
+  height: 2.813rem;
+  width: 32.563rem;
   position: relative;
   border-radius: var(--br-5xs);
   background-color: var(--color-white);
@@ -73,13 +73,13 @@
   max-width: 100%;
 }
 .type-your-email {
-  width: 189px;
+  width: 11.813rem;
   border: 0;
   outline: 0;
   font-family: var(--font-lato);
   font-size: var(--font-size-base);
   background-color: transparent;
-  height: 19px;
+  height: 1.188rem;
   position: relative;
   color: #959595;
   text-align: left;
@@ -104,7 +104,7 @@
   padding: var(--padding-2xs) var(--padding-lgi);
 }
 .input-label {
-  width: 521px;
+  width: 32.563rem;
   flex-direction: column;
   gap: var(--gap-7xs);
 }
@@ -118,15 +118,15 @@
 .password {
   font-size: var(--font-size-smi);
   color: var(--main-text);
-  min-width: 57px;
+  min-width: 3.563rem;
 }
 .type-your-password {
-  width: 289px;
+  width: 18.063rem;
   border: 0;
   outline: 0;
   font-size: var(--font-size-base);
   background-color: transparent;
-  height: 19px;
+  height: 1.188rem;
   color: #8a8a8a;
   padding: 0;
   z-index: 1;
@@ -148,21 +148,21 @@
   padding: var(--padding-2xs) var(--padding-mid);
 }
 .input-label1 {
-  width: 521px;
+  width: 32.563rem;
   flex-direction: column;
-  padding: 0 0 12px;
+  padding: 0 0 var(--padding-xs);
   gap: var(--gap-7xs);
 }
 .sign-in {
   position: relative;
-  font-size: 15px;
-  line-height: 16px;
+  font-size: 0.938rem;
+  line-height: 1rem;
   font-weight: 500;
   font-family: var(--font-inter);
   color: var(--color-white);
   text-align: left;
   display: inline-block;
-  min-width: 49px;
+  min-width: 3.063rem;
 }
 .button,
 .submit-button {
@@ -206,42 +206,42 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-5xl);
   box-sizing: border-box;
-  min-width: 347px;
+  min-width: 21.688rem;
 }
 .shape {
   position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
-  left: 24px;
+  left: 1.5rem;
   filter: blur(100px);
   border-radius: 50%;
   background-color: rgba(10, 121, 104, 0.25);
-  width: 331px;
+  width: 20.688rem;
 }
 .image-19-icon {
   position: absolute;
-  top: 33px;
+  top: 2.063rem;
   left: 0;
-  width: 360px;
-  height: 360px;
+  width: 22.5rem;
+  height: 22.5rem;
   object-fit: cover;
   z-index: 1;
 }
 .illustration {
-  height: 420px;
-  width: 360px;
+  height: 26.25rem;
+  width: 22.5rem;
   position: relative;
-  min-width: 360px;
+  min-width: 22.5rem;
   max-width: 100%;
 }
 .sign-in-form {
-  width: 962px;
+  width: 60.125rem;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-  gap: 68px;
+  gap: var(--gap-49xl);
   max-width: 100%;
 }
 .sign-in-content,
@@ -254,7 +254,7 @@
   align-self: stretch;
   flex-direction: row;
   justify-content: center;
-  padding: 0 0 0 78px;
+  padding: 0 0 0 4.875rem;
   max-width: 100%;
 }
 .user-auth-sign-in {
@@ -264,13 +264,13 @@
   overflow: hidden;
   flex-direction: column;
   justify-content: flex-start;
-  padding: var(--padding-7xl) 45px 152px;
-  gap: 77px;
+  padding: var(--padding-7xl) var(--padding-26xl) 9.5rem;
+  gap: var(--gap-58xl);
   line-height: normal;
   letter-spacing: normal;
   text-align: left;
   font-size: var(--font-size-11xl);
-  color: var(--color-teal);
+  color: var(--color-teal-100);
   font-family: var(--font-raleway);
 }
 @media screen and (max-width: 1050px) {
@@ -282,18 +282,18 @@
 @media screen and (max-width: 975px) {
   .finedventure {
     font-size: var(--font-size-5xl);
-    line-height: 36px;
+    line-height: 2.25rem;
   }
   .hello-again {
     font-size: var(--font-size-9xl);
-    line-height: 42px;
+    line-height: 2.625rem;
   }
   .illustration {
     flex: 1;
   }
   .sign-in-form {
     flex-wrap: wrap;
-    gap: 34px;
+    gap: var(--gap-15xl);
   }
 }
 @media screen and (max-width: 725px) {
@@ -305,7 +305,7 @@
     gap: var(--gap-mid);
   }
   .user-auth-sign-in {
-    gap: 38px;
+    gap: var(--gap-19xl);
     padding-left: var(--padding-3xl);
     padding-right: var(--padding-3xl);
     box-sizing: border-box;
@@ -314,11 +314,11 @@
 @media screen and (max-width: 450px) {
   .finedventure {
     font-size: var(--font-size-lg);
-    line-height: 27px;
+    line-height: 1.688rem;
   }
   .hello-again {
     font-size: var(--font-size-2xl);
-    line-height: 31px;
+    line-height: 1.938rem;
   }
   .user-auth-sign-in {
     gap: var(--gap-lgi);

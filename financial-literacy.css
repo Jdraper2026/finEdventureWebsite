@@ -10,10 +10,10 @@
 }
 .login-frame {
   position: absolute;
-  top: 15px;
-  left: 53px;
-  width: 120px;
-  height: 19px;
+  top: 0.938rem;
+  left: 3.313rem;
+  width: 7.5rem;
+  height: 1.188rem;
 }
 .memoji2,
 .memojivariant122 {
@@ -29,9 +29,9 @@
 }
 .memojivariant122 {
   border-radius: var(--br-980xl);
-  background-color: var(--color-teal);
-  width: 48px;
-  height: 48px;
+  background-color: var(--color-teal-100);
+  width: 3rem;
+  height: 3rem;
   overflow: hidden;
 }
 .header-child,
@@ -40,43 +40,43 @@
   display: none;
 }
 .profil1 {
-  width: 173px;
-  height: 48px;
+  width: 10.813rem;
+  height: 3rem;
   z-index: 0;
   font-family: var(--font-lato);
 }
 .header-child {
-  width: 1920px;
-  height: 1178px;
+  width: 120rem;
+  height: 73.625rem;
   background: linear-gradient(180deg, #f0fff8, #dffeef);
   max-width: 100%;
 }
 .our-team2 {
   text-decoration: none;
-  width: 135px;
+  width: 8.438rem;
   position: relative;
   font-size: var(--font-size-11xl);
   font-weight: 500;
   font-family: var(--font-lato);
-  color: var(--color-teal);
+  color: var(--color-teal-100);
   text-align: right;
   display: inline-block;
 }
-.finedventure1,
+.finedventure2,
 .our-team-wrapper {
   position: absolute;
   white-space: nowrap;
 }
 .our-team-wrapper {
   cursor: pointer;
-  border: 1px solid var(--color-teal);
+  border: 1px solid var(--color-teal-100);
   padding: var(--padding-6xs) var(--padding-xl) var(--padding-2xs);
   background-color: var(--color-honeydew-100);
-  top: 13px;
-  left: 447px;
+  top: 0.813rem;
+  left: 27.938rem;
   border-radius: var(--br-xl);
   box-sizing: border-box;
-  width: 180px;
+  width: 11.25rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -85,25 +85,25 @@
 }
 .our-team-wrapper:hover {
   background-color: #d4e6de;
-  border: 1px solid var(--color-lightseagreen);
+  border: 1px solid var(--color-lightseagreen-200);
   box-sizing: border-box;
 }
-.finedventure1 {
+.finedventure2 {
   margin: 0;
   height: 100%;
   top: 0;
   left: 0;
   font-size: inherit;
-  line-height: 83px;
+  line-height: 5.188rem;
   display: inline-block;
   font-style: italic;
   font-weight: 700;
   font-family: inherit;
-  width: 482px;
+  width: 30.125rem;
   z-index: 2;
 }
-.frame-parent12 {
-  height: 83px;
+.frame-parent20 {
+  height: 5.188rem;
   flex: 1;
   position: relative;
   max-width: 100%;
@@ -119,17 +119,17 @@
   white-space: nowrap;
 }
 .financial-literacy-wrapper,
-.frame-wrapper5 {
+.frame-wrapper11 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .financial-literacy-wrapper {
   cursor: pointer;
-  border: 1px solid var(--color-teal);
+  border: 1px solid var(--color-teal-100);
   padding: var(--padding-6xs) var(--padding-base) var(--padding-2xs)
     var(--padding-lgi);
-  background-color: var(--color-teal);
+  background-color: var(--color-teal-100);
   border-radius: var(--br-xl);
   flex-direction: row;
   white-space: nowrap;
@@ -137,34 +137,34 @@
 }
 .business-competitons-container:hover,
 .financial-literacy-wrapper:hover {
-  background-color: var(--color-lightseagreen);
-  border: 1px solid var(--color-lightseagreen);
+  background-color: var(--color-lightseagreen-200);
+  border: 1px solid var(--color-lightseagreen-200);
   box-sizing: border-box;
 }
-.frame-wrapper5 {
+.frame-wrapper11 {
   flex-direction: column;
   padding: var(--padding-smi) 0 0;
 }
 .business-competitons1 {
-  width: 309px;
+  width: 19.313rem;
   position: relative;
   font-size: var(--font-size-11xl);
   font-weight: 500;
   font-family: var(--font-lato);
-  color: var(--color-teal);
+  color: var(--color-teal-100);
   white-space: pre-wrap;
   text-align: left;
   display: inline-block;
 }
 .business-competitons-container,
-.frame-wrapper6 {
+.frame-wrapper12 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .business-competitons-container {
   cursor: pointer;
-  border: 1px solid var(--color-teal);
+  border: 1px solid var(--color-teal-100);
   padding: var(--padding-6xs) var(--padding-xl) var(--padding-2xs);
   background-color: var(--color-honeydew-100);
   align-self: stretch;
@@ -176,8 +176,8 @@
 .business-competitons-container:hover {
   background-color: var(--color-gainsboro-100);
 }
-.frame-wrapper6 {
-  width: 371px;
+.frame-wrapper12 {
+  width: 23.188rem;
   flex-direction: column;
   padding: var(--padding-2xs) 0 0;
   box-sizing: border-box;
@@ -189,7 +189,7 @@
   font-weight: 500;
   color: inherit;
 }
-.frame-wrapper7,
+.frame-wrapper13,
 .investments-wrapper {
   display: flex;
   align-items: flex-start;
@@ -198,26 +198,26 @@
 .investments-wrapper {
   border-radius: var(--br-xl);
   background-color: var(--color-honeydew-100);
-  border: 1px solid var(--color-teal);
+  border: 1px solid var(--color-teal-100);
   flex-direction: row;
   padding: var(--padding-6xs) var(--padding-mini) var(--padding-2xs)
     var(--padding-lgi);
   z-index: 1;
 }
-.frame-wrapper7 {
+.frame-wrapper13 {
   flex-direction: column;
   padding: var(--padding-smi) 0 0;
   font-size: var(--font-size-11xl);
 }
-.memojivariant123,
-.rectangle-div {
+.frame-child16,
+.memojivariant123 {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
 }
-.rectangle-div {
-  width: 150px;
+.frame-child16 {
+  width: 9.375rem;
   margin: 0 !important;
   bottom: 0;
   border-radius: var(--br-20xl);
@@ -226,23 +226,23 @@
 }
 .memojivariant123 {
   border-radius: var(--br-980xl);
-  background-color: var(--color-teal);
+  background-color: var(--color-teal-100);
   width: 100%;
   overflow: hidden;
   z-index: 2;
 }
 .file-2-71 {
   position: absolute;
-  top: 11px;
-  left: 11px;
-  width: 25px;
-  height: 26px;
+  top: 0.688rem;
+  left: 0.688rem;
+  width: 1.563rem;
+  height: 1.625rem;
   object-fit: cover;
   z-index: 3;
 }
 .memojivariant12-group {
-  height: 48px;
-  width: 48px;
+  height: 3rem;
+  width: 3rem;
   position: relative;
 }
 .login3 {
@@ -262,7 +262,7 @@
   justify-content: flex-end;
   padding: 0 0 var(--padding-sm);
 }
-.rectangle-parent1 {
+.rectangle-parent8 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -272,13 +272,13 @@
   gap: var(--gap-8xs);
 }
 .frame-header,
-.frame-wrapper8 {
+.frame-wrapper14 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.frame-wrapper8 {
-  width: 173px;
+.frame-wrapper14 {
+  width: 10.813rem;
   flex-direction: column;
   padding: var(--padding-lg) 0 0;
   box-sizing: border-box;
@@ -294,15 +294,15 @@
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-36xl);
-  color: var(--color-teal);
+  color: var(--color-teal-100);
   font-family: var(--font-lato);
 }
 .financial-mastery-curriculum {
   margin: 0;
-  width: 924px;
+  width: 57.75rem;
   position: relative;
   font-size: inherit;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   font-weight: 500;
   font-family: inherit;
@@ -320,36 +320,36 @@
 .explore-essential-financial-co {
   margin: 0;
 }
-.supporting-text17 {
+.supporting-text35 {
   align-self: stretch;
   position: relative;
   line-height: 150%;
   mix-blend-mode: normal;
   z-index: 1;
 }
-.supporting-text-wrapper10 {
-  width: 775px;
+.supporting-text-wrapper13 {
+  width: 48.438rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-lg) 0 0;
   box-sizing: border-box;
-  min-width: 775px;
+  min-width: 48.438rem;
   max-width: 100%;
 }
 .image-13-icon {
-  height: 503px;
+  height: 31.438rem;
   flex: 1;
   position: relative;
   border-radius: var(--br-xl);
   max-width: 100%;
   overflow: hidden;
   object-fit: cover;
-  min-width: 528px;
+  min-width: 33rem;
   z-index: 1;
 }
-.frame-parent13 {
+.frame-parent21 {
   flex: 1;
   display: flex;
   flex-direction: row;
@@ -358,7 +358,7 @@
   gap: var(--gap-93xl);
   max-width: 100%;
 }
-.frame-wrapper9 {
+.frame-wrapper15 {
   align-self: stretch;
   flex-direction: row;
   padding: 0 0 0 var(--padding-mid);
@@ -368,7 +368,7 @@
   font-family: var(--font-inter);
 }
 .financial-mastery-curriculum-parent,
-.frame-wrapper9,
+.frame-wrapper15,
 .header,
 .header-inner {
   display: flex;
@@ -379,14 +379,14 @@
 .financial-mastery-curriculum-parent {
   flex: 1;
   flex-direction: column;
-  gap: 111px;
+  gap: 6.937rem;
 }
 .header,
 .header-inner {
   box-sizing: border-box;
 }
 .header-inner {
-  width: 1730px;
+  width: 108.125rem;
   flex-direction: row;
   padding: 0 var(--padding-6xs);
 }
@@ -394,55 +394,56 @@
   align-self: stretch;
   background: linear-gradient(180deg, #f0fff8, #dffeef);
   flex-direction: column;
-  padding: var(--padding-34xl) var(--padding-37xl) 137px var(--padding-62xl);
-  gap: 241px;
+  padding: var(--padding-34xl) var(--padding-37xl) 8.562rem var(--padding-62xl);
+  gap: 15.062rem;
   flex-shrink: 0;
   text-align: right;
   font-size: var(--font-size-34xl);
 }
-.frame-child3,
-.frame-child4,
-.image-12-icon1 {
+.frame-child17,
+.frame-child18 {
   position: absolute;
-  top: 844.8px;
-  left: 239px;
-  width: 1516.4px;
-  height: 1332.3px;
   object-fit: contain;
 }
-.frame-child4,
-.image-12-icon1 {
+.frame-child17 {
+  top: 52.8rem;
+  left: 14.938rem;
+  width: 94.775rem;
+  height: 83.269rem;
+}
+.frame-child18 {
   top: 0;
-  left: -86.5px;
-  width: 2455.9px;
-  height: 908.4px;
+  left: -5.406rem;
+  width: 153.494rem;
+  height: 56.775rem;
   z-index: 1;
 }
 .image-12-icon1 {
-  top: 152.7px;
-  left: 1048px;
-  width: 525px;
-  height: 168.7px;
+  position: absolute;
+  top: 9.544rem;
+  left: 65.5rem;
+  width: 32.813rem;
+  height: 10.544rem;
   object-fit: cover;
   z-index: 2;
 }
 .vector-group {
   width: 100%;
-  height: 2177.1px;
+  height: 136.069rem;
   position: absolute;
   margin: 0 !important;
   right: 0;
-  bottom: -3403.4px;
+  bottom: -212.712rem;
   left: 0;
 }
-.frame-child5,
+.frame-child19,
 .quick-reads {
   position: relative;
   max-width: 100%;
 }
-.frame-child5 {
-  width: 1920px;
-  height: 2214px;
+.frame-child19 {
+  width: 120rem;
+  height: 138.375rem;
   background: linear-gradient(0deg, #f0fff8, rgba(156, 224, 213, 0.6));
   display: none;
 }
@@ -450,7 +451,7 @@
   margin: 0;
   flex: 1;
   font-size: inherit;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   font-weight: 600;
   font-family: inherit;
@@ -463,14 +464,14 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 9px 0 var(--padding-3xs);
+  padding: 0 var(--padding-4xs) 0 var(--padding-3xs);
   box-sizing: border-box;
   max-width: 100%;
 }
 .mindyourmoneyblog {
   font-weight: 600;
 }
-.supporting-text18 {
+.supporting-text36 {
   align-self: stretch;
   position: relative;
   font-size: var(--font-size-11xl);
@@ -481,7 +482,7 @@
   font-family: var(--font-inter);
 }
 .quick-reads-header-container {
-  width: 943px;
+  width: 58.938rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -490,7 +491,7 @@
   max-width: 100%;
 }
 .quick-reads-header-container-wrapper {
-  width: 1676px;
+  width: 104.75rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -499,7 +500,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.supporting-text19 {
+.supporting-text37 {
   align-self: stretch;
   position: relative;
   line-height: 150%;
@@ -511,7 +512,7 @@
 }
 .image-38-parent,
 .image-39-parent {
-  width: 350px;
+  width: 21.875rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -522,13 +523,13 @@
 .image-39-parent {
   gap: var(--gap-14xl-6);
 }
-.frame-parent16,
+.frame-parent24,
 .image-40-icon {
   align-self: stretch;
   max-width: 100%;
 }
 .image-40-icon {
-  height: 233.4px;
+  height: 14.588rem;
   position: relative;
   border-radius: var(--br-mini);
   overflow: hidden;
@@ -536,73 +537,73 @@
   object-fit: cover;
   z-index: 2;
 }
-.frame-parent16 {
+.frame-parent24 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.supporting-text24 {
+.supporting-text42 {
   align-self: stretch;
   position: relative;
-  line-height: 38px;
+  line-height: 2.375rem;
   font-weight: 500;
   color: inherit;
   text-decoration: none;
   mix-blend-mode: normal;
   z-index: 2;
 }
-.frame-parent15 {
+.frame-parent23 {
   align-self: stretch;
   gap: var(--gap-60xl);
 }
-.frame-parent14,
-.frame-parent15,
-.frame-parent18 {
+.frame-parent22,
+.frame-parent23,
+.frame-parent26 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.frame-parent18 {
+.frame-parent26 {
   align-self: stretch;
-  gap: 74px;
+  gap: 4.625rem;
 }
-.frame-parent14 {
-  width: 1676px;
+.frame-parent22 {
+  width: 104.75rem;
   gap: var(--gap-93xl);
   font-size: var(--font-size-6xl);
   color: var(--color-darkslategray);
   font-family: var(--font-inter);
 }
 .financial-literacy-inner,
-.rectangle-parent2 {
+.rectangle-parent9 {
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
   flex-shrink: 0;
 }
-.rectangle-parent2 {
+.rectangle-parent9 {
   flex: 1;
   background: linear-gradient(0deg, #f0fff8, rgba(156, 224, 213, 0.6));
   flex-direction: column;
   align-items: center;
-  padding: 74px var(--padding-xl) 157px;
-  gap: 78px;
+  padding: 4.625rem var(--padding-xl) 9.812rem;
+  gap: 4.875rem;
   z-index: 1;
   text-align: center;
   font-size: var(--font-size-41xl);
-  color: var(--color-teal);
+  color: var(--color-teal-100);
   font-family: var(--font-montserrat);
 }
 .financial-literacy-inner {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
-  padding: 0 0 931px;
+  padding: 0 0 58.187rem;
 }
 .image-8-icon1 {
   align-self: stretch;
@@ -614,8 +615,8 @@
   object-fit: cover;
 }
 .image-8-container {
-  height: 232px;
-  width: 544px;
+  height: 14.5rem;
+  width: 34rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -631,12 +632,12 @@
   object-fit: cover;
 }
 .image-9-icon1 {
-  width: 503px;
+  width: 31.438rem;
   max-height: 100%;
 }
 .image-10-icon1 {
   align-self: stretch;
-  height: 147px;
+  height: 9.188rem;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -647,8 +648,8 @@
   max-width: 100%;
 }
 .image-10-container {
-  height: 190px;
-  width: 577px;
+  height: 11.875rem;
+  width: 36.063rem;
   flex-direction: column;
   align-items: flex-start;
 }
@@ -671,14 +672,14 @@
 .at-work1,
 .weve-been-hard1 {
   font-size: inherit;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   font-family: inherit;
   display: inline-block;
 }
 .weve-been-hard1 {
   margin: 0;
-  height: 267px;
+  height: 16.688rem;
   flex: 1;
   position: relative;
   font-weight: 400;
@@ -690,13 +691,13 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  bottom: -134px;
+  bottom: -8.375rem;
   left: 0;
   font-weight: 600;
   z-index: 3;
 }
 .weve-been-hard-group {
-  width: 1342px;
+  width: 83.875rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -704,7 +705,7 @@
   position: relative;
   max-width: 100%;
 }
-.frame-child6 {
+.frame-child20 {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -715,17 +716,17 @@
   left: 0;
   border-radius: 50%;
   background-color: var(--color-mintcream);
-  border: 0 solid var(--color-teal);
+  border: 0 solid var(--color-teal-100);
   box-sizing: border-box;
   z-index: 4;
 }
 .representatives2 {
   margin: 0;
   align-self: stretch;
-  height: 100px;
+  height: 6.25rem;
   position: relative;
   font-size: inherit;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   font-weight: 700;
   font-family: inherit;
@@ -748,18 +749,18 @@
   max-width: 100%;
 }
 .separator {
-  height: 103px;
+  height: 6.438rem;
   flex: 1;
   font-size: var(--font-size-151xl);
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   font-weight: 500;
   display: inline-block;
   z-index: 5;
-  margin-left: -572px;
+  margin-left: -35.75rem;
 }
 .ellipse-container {
-  width: 600px;
+  width: 37.5rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -770,7 +771,7 @@
 .countries-represented1,
 .div1 {
   position: relative;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   z-index: 5;
 }
@@ -782,13 +783,13 @@
   font-family: inherit;
 }
 .div1 {
-  height: 103px;
+  height: 6.438rem;
   flex: 1;
   font-size: var(--font-size-151xl);
   font-weight: 500;
   display: inline-block;
   max-width: 100%;
-  margin-left: -558px;
+  margin-left: -34.875rem;
 }
 .ellipse-parent1,
 .statistics-data {
@@ -798,7 +799,7 @@
   max-width: 100%;
 }
 .ellipse-parent1 {
-  width: 600px;
+  width: 37.5rem;
   justify-content: flex-start;
   padding: var(--padding-214xl) 0 var(--padding-158xl) var(--padding-sm);
   box-sizing: border-box;
@@ -820,19 +821,19 @@
   left: 0;
   border-radius: 50%;
   background-color: var(--color-mintcream);
-  border: 0 solid var(--color-teal);
+  border: 0 solid var(--color-teal-100);
   box-sizing: border-box;
   z-index: 1;
 }
 .students-reached-number,
 .students-reached1 {
   position: relative;
-  line-height: 50px;
+  line-height: 3.125rem;
   text-transform: capitalize;
   z-index: 2;
 }
 .students-reached-number {
-  height: 103px;
+  height: 6.438rem;
   flex: 1;
   font-weight: 500;
   display: inline-block;
@@ -857,17 +858,17 @@
   flex: 1;
   flex-direction: column;
   padding: var(--padding-130xl) 0 0;
-  margin-left: -572px;
+  margin-left: -35.75rem;
   font-size: var(--font-size-21xl);
 }
 .students-reached-content {
-  width: 600px;
+  width: 37.5rem;
   flex-direction: row;
   padding: var(--padding-229xl) var(--padding-sm) var(--padding-134xl);
   position: relative;
 }
 .students-reached-content-wrapper {
-  width: 1434px;
+  width: 89.625rem;
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xl);
@@ -882,7 +883,7 @@
   max-width: 100%;
 }
 .statistics-content {
-  width: 1445px;
+  width: 90.313rem;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-mini);
@@ -895,20 +896,20 @@
   font-size: var(--font-size-21xl);
 }
 .financial-literacy-child,
-.frame-parent21 {
+.frame-parent29 {
   display: flex;
   align-items: flex-start;
   max-width: 100%;
   flex-shrink: 0;
 }
-.frame-parent21 {
-  width: 1588px;
+.frame-parent29 {
+  width: 99.25rem;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 43px;
+  gap: 2.687rem;
 }
 .financial-literacy-child {
-  width: 1778px;
+  width: 111.125rem;
   flex-direction: row;
   justify-content: center;
   padding: 0 var(--padding-xl);
@@ -917,7 +918,7 @@
 }
 .financial-literacy1 {
   width: 100%;
-  height: 3392px;
+  height: 212rem;
   position: relative;
   background-color: var(--color-white);
   overflow: hidden;
@@ -929,7 +930,7 @@
   letter-spacing: normal;
   text-align: left;
   font-size: var(--font-size-base);
-  color: var(--color-teal);
+  color: var(--color-teal-100);
   font-family: var(--font-montserrat);
 }
 @media screen and (max-width: 1800px) {
@@ -938,11 +939,11 @@
   .login3 {
     display: none;
   }
-  .supporting-text-wrapper10 {
+  .supporting-text-wrapper13 {
     flex: 1;
   }
-  .frame-parent13,
-  .frame-parent16,
+  .frame-parent21,
+  .frame-parent24,
   .image-trio-container {
     flex-wrap: wrap;
   }
@@ -951,24 +952,24 @@
   }
 }
 @media screen and (max-width: 1350px) {
-  .supporting-text-wrapper10 {
+  .supporting-text-wrapper13 {
     min-width: 100%;
   }
   .header {
-    gap: 120px;
-    padding: var(--padding-15xl) var(--padding-9xl) 89px var(--padding-21xl);
+    gap: 7.5rem;
+    padding: var(--padding-15xl) var(--padding-9xl) 5.563rem var(--padding-21xl);
     box-sizing: border-box;
   }
   .quick-reads-header-container {
     gap: var(--gap-14xl);
   }
-  .rectangle-parent2 {
+  .rectangle-parent9 {
     padding-top: var(--padding-12xl);
-    padding-bottom: 66px;
+    padding-bottom: 4.125rem;
     box-sizing: border-box;
   }
   .financial-literacy-inner {
-    padding-bottom: 393px;
+    padding-bottom: 24.563rem;
     box-sizing: border-box;
   }
   .image-trio-container-wrapper {
@@ -987,20 +988,20 @@
   }
   .financial-mastery-curriculum {
     font-size: var(--font-size-23xl);
-    line-height: 40px;
+    line-height: 2.5rem;
   }
-  .supporting-text17 {
+  .supporting-text35 {
     font-size: var(--font-size-5xl);
-    line-height: 36px;
+    line-height: 2.25rem;
   }
   .image-13-icon {
     min-width: 100%;
   }
-  .frame-parent13 {
+  .frame-parent21 {
     gap: var(--gap-37xl);
   }
   .financial-mastery-curriculum-parent {
-    gap: 55px;
+    gap: 3.438rem;
   }
   .header {
     gap: var(--gap-41xl);
@@ -1009,33 +1010,33 @@
     box-sizing: border-box;
   }
   .quick-reads {
-    font-size: 48px;
-    line-height: 40px;
+    font-size: 3rem;
+    line-height: 2.5rem;
   }
-  .supporting-text18 {
+  .supporting-text36 {
     font-size: var(--font-size-5xl);
-    line-height: 36px;
+    line-height: 2.25rem;
   }
   .quick-reads-header-container {
     gap: var(--gap-base);
   }
-  .frame-parent15 {
+  .frame-parent23 {
     gap: var(--gap-20xl);
   }
-  .frame-parent18 {
+  .frame-parent26 {
     gap: var(--gap-18xl);
   }
-  .frame-parent14 {
+  .frame-parent22 {
     gap: var(--gap-37xl);
   }
-  .rectangle-parent2 {
+  .rectangle-parent9 {
     gap: var(--gap-20xl);
     padding-top: var(--padding-xl);
     padding-bottom: var(--padding-24xl);
     box-sizing: border-box;
   }
   .financial-literacy-inner {
-    padding-bottom: 255px;
+    padding-bottom: 15.938rem;
     box-sizing: border-box;
   }
   .image-trio-container {
@@ -1048,15 +1049,15 @@
   .at-work1,
   .weve-been-hard1 {
     font-size: var(--font-size-31xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .representatives2 {
     font-size: var(--font-size-13xl);
-    line-height: 40px;
+    line-height: 2.5rem;
   }
   .separator {
     font-size: var(--font-size-49xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .ellipse-container {
     padding-top: var(--padding-132xl);
@@ -1065,11 +1066,11 @@
   }
   .countries-represented1 {
     font-size: var(--font-size-13xl);
-    line-height: 40px;
+    line-height: 2.5rem;
   }
   .div1 {
     font-size: var(--font-size-49xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .ellipse-parent1 {
     padding-top: var(--padding-132xl);
@@ -1078,67 +1079,67 @@
   }
   .students-reached-number {
     font-size: var(--font-size-43xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .students-reached1 {
     font-size: var(--font-size-13xl);
-    line-height: 40px;
+    line-height: 2.5rem;
   }
   .students-reached-content {
     padding-top: var(--padding-142xl);
     padding-bottom: var(--padding-80xl);
     box-sizing: border-box;
   }
-  .frame-parent21 {
+  .frame-parent29 {
     gap: var(--gap-2xl);
   }
 }
 @media screen and (max-width: 450px) {
   .financial-mastery-curriculum {
     font-size: var(--font-size-13xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
-  .supporting-text17 {
+  .supporting-text35 {
     font-size: var(--font-size-lg);
-    line-height: 27px;
+    line-height: 1.688rem;
   }
   .financial-mastery-curriculum-parent,
-  .frame-parent13 {
+  .frame-parent21 {
     gap: var(--gap-9xl);
   }
   .quick-reads {
     font-size: var(--font-size-17xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
-  .supporting-text18 {
+  .supporting-text36 {
     font-size: var(--font-size-lg);
-    line-height: 27px;
+    line-height: 1.688rem;
   }
-  .supporting-text19 {
+  .supporting-text37 {
     font-size: var(--font-size-xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .image-39-parent {
     gap: var(--gap-mid);
   }
-  .supporting-text24 {
+  .supporting-text42 {
     font-size: var(--font-size-xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
-  .frame-parent15 {
+  .frame-parent23 {
     gap: var(--gap-xl);
   }
-  .frame-parent18 {
+  .frame-parent26 {
     gap: var(--gap-lg);
   }
-  .frame-parent14 {
+  .frame-parent22 {
     gap: var(--gap-9xl);
   }
-  .rectangle-parent2 {
+  .rectangle-parent9 {
     gap: var(--gap-lgi);
   }
   .financial-literacy-inner {
-    padding-bottom: 166px;
+    padding-bottom: 10.375rem;
     box-sizing: border-box;
   }
   .image-trio-container {
@@ -1147,30 +1148,30 @@
   .at-work1,
   .weve-been-hard1 {
     font-size: var(--font-size-11xl);
-    line-height: 20px;
+    line-height: 1.25rem;
   }
   .representatives2 {
     font-size: var(--font-size-5xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .separator {
     font-size: var(--font-size-23xl);
-    line-height: 20px;
+    line-height: 1.25rem;
   }
   .countries-represented1 {
     font-size: var(--font-size-5xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
   .div1 {
     font-size: var(--font-size-23xl);
-    line-height: 20px;
+    line-height: 1.25rem;
   }
   .students-reached-number {
     font-size: var(--font-size-20xl);
-    line-height: 20px;
+    line-height: 1.25rem;
   }
   .students-reached1 {
     font-size: var(--font-size-5xl);
-    line-height: 30px;
+    line-height: 1.875rem;
   }
 }

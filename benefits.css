@@ -1,8 +1,8 @@
 .text-here2,
 .text-here3 {
-  width: 240px;
+  width: 15rem;
   position: relative;
-  line-height: 42px;
+  line-height: 2.625rem;
   font-weight: 500;
   display: none;
   align-items: center;
@@ -13,8 +13,8 @@
   color: var(--color-lavender);
 }
 .file-2-21 {
-  height: 48px;
-  width: 48px;
+  height: 3rem;
+  width: 3rem;
   position: relative;
   object-fit: cover;
 }
@@ -26,8 +26,8 @@
   padding: 0 var(--padding-6xs) 0 var(--padding-7xs);
 }
 .download-7-removebg-preview-icon1 {
-  height: 44px;
-  width: 46px;
+  height: 2.75rem;
+  width: 2.875rem;
   position: relative;
   object-fit: cover;
 }
@@ -60,14 +60,14 @@
   gap: var(--gap-45xl);
 }
 .image-download-wrapper {
-  height: 591px;
-  width: 61px;
+  height: 36.938rem;
+  width: 3.813rem;
   padding: var(--padding-188xl) 0 0;
   box-sizing: border-box;
 }
 .frame-child3 {
-  width: 1693px;
-  height: 2590px;
+  width: 105.813rem;
+  height: 161.875rem;
   position: relative;
   background-color: var(--color-mintcream);
   display: none;
@@ -75,12 +75,12 @@
   z-index: 0;
 }
 .frame-child4 {
-  width: 39px;
+  width: 2.438rem;
   height: 0;
   position: absolute;
   margin: 0 !important;
-  top: 343px;
-  left: 799px;
+  top: 21.438rem;
+  left: 49.938rem;
   z-index: 4;
 }
 .benefits-of-esg {
@@ -94,17 +94,17 @@
   z-index: 4;
 }
 .introduction2 {
-  width: 198px;
+  width: 12.375rem;
   position: absolute;
   margin: 0 !important;
-  top: 9px;
-  right: -62px;
+  top: 0.563rem;
+  right: -3.875rem;
   font-weight: 500;
   display: inline-block;
 }
 .header-items {
-  height: 47px;
-  width: 156px;
+  height: 2.938rem;
+  width: 9.75rem;
   border-radius: var(--br-31xl);
   background-color: var(--color-turquoise);
   border: 1px solid var(--color-lightseagreen-300);
@@ -118,7 +118,7 @@
   z-index: 4;
 }
 .header-divider-child {
-  width: 39px;
+  width: 2.438rem;
   height: 0;
   position: relative;
   z-index: 5;
@@ -176,7 +176,7 @@
   color: var(--color-honeydew-100);
   text-align: left;
   display: inline-block;
-  min-width: 129px;
+  min-width: 8.063rem;
 }
 .details-content {
   cursor: pointer;
@@ -197,7 +197,7 @@
   background-color: var(--color-lightseagreen-100);
 }
 .content-separator-child {
-  width: 39px;
+  width: 2.438rem;
   height: 0;
   position: relative;
   z-index: 4;
@@ -249,7 +249,7 @@
   row-gap: 20px;
 }
 .benefits-title-inner {
-  width: 1045px;
+  width: 65.313rem;
   align-items: flex-start;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
@@ -271,7 +271,7 @@
   gap: var(--gap-58xl);
 }
 .benefits-title-wrapper {
-  width: 1188px;
+  width: 74.25rem;
   flex-direction: row;
   align-items: flex-start;
   padding: 0 var(--padding-25xl);
@@ -283,7 +283,7 @@
 }
 .supporting-text6 {
   margin: 0;
-  width: 885px;
+  width: 55.313rem;
   position: relative;
   font-size: inherit;
   line-height: 150%;
@@ -327,12 +327,12 @@
   z-index: 4;
 }
 .frame-child5 {
-  height: 2588px;
-  width: 561px;
+  height: 161.75rem;
+  width: 35.063rem;
   position: absolute;
   margin: 0 !important;
-  top: -907px;
-  left: -226px;
+  top: -56.687rem;
+  left: -14.125rem;
   background: linear-gradient(
     90deg,
     rgba(11, 155, 133, 0.14),
@@ -340,9 +340,6 @@
     rgba(240, 255, 248, 0.2)
   );
   z-index: 3;
-}
-.performance-many-esg {
-  margin-bottom: 0;
 }
 .performance-many-esg-funds-ha {
   margin: 0;
@@ -352,7 +349,7 @@
 }
 .supporting-text9 {
   margin: 0;
-  height: 1184px;
+  height: 74rem;
   flex: 1;
   position: relative;
   font-size: inherit;
@@ -386,14 +383,14 @@
   padding: 0 0 0 var(--padding-8xs);
 }
 .supporting-text-container {
-  width: 1257px;
+  width: 78.563rem;
   flex-direction: column;
-  padding: 0 0 229px;
+  padding: 0 0 14.312rem;
   gap: var(--gap-4xl);
   font-size: var(--font-size-15xl);
 }
 .go-to-issues {
-  width: 541px;
+  width: 33.813rem;
   position: relative;
   font-size: var(--font-size-21xl);
   font-weight: 500;
@@ -417,7 +414,7 @@
   border: 1px solid var(--color-teal-100);
   padding: var(--padding-6xs) var(--padding-xl) var(--padding-3xs);
   background-color: var(--color-honeydew-100);
-  width: 596px;
+  width: 37.25rem;
   border-radius: var(--br-xl);
   justify-content: flex-start;
   z-index: 4;
@@ -428,7 +425,7 @@
   box-sizing: border-box;
 }
 .navigation {
-  width: 1244px;
+  width: 77.75rem;
   justify-content: center;
   padding: 0 var(--padding-xl);
 }
@@ -442,7 +439,7 @@
 .supporting-content {
   align-self: stretch;
   flex-direction: column;
-  gap: 89px;
+  gap: 5.562rem;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-21xl);
@@ -460,7 +457,7 @@
   flex-direction: column;
   padding: var(--padding-89xl) var(--padding-155xl) var(--padding-91xl)
     var(--padding-206xl);
-  gap: 164px;
+  gap: 10.25rem;
   max-width: calc(100% - 143px);
   z-index: 2;
 }
@@ -505,24 +502,24 @@
   .text-here2,
   .text-here3 {
     font-size: var(--font-size-5xl);
-    line-height: 34px;
+    line-height: 2.125rem;
   }
   .image-download-wrapper {
     display: none;
   }
   .benefits-of-esg {
     font-size: var(--font-size-26xl);
-    line-height: 81px;
+    line-height: 5.063rem;
   }
   .supporting-text6 {
     font-size: var(--font-size-13xl);
-    line-height: 48px;
+    line-height: 3rem;
   }
   .supporting-text7,
   .supporting-text8,
   .supporting-text9 {
     font-size: var(--font-size-8xl);
-    line-height: 41px;
+    line-height: 2.563rem;
   }
   .go-to-issues {
     font-size: var(--font-size-13xl);
@@ -551,11 +548,11 @@
     gap: var(--gap-base);
   }
   .supporting-text-container {
-    padding-bottom: 97px;
+    padding-bottom: 6.063rem;
     box-sizing: border-box;
   }
   .supporting-content {
-    gap: 44px;
+    gap: 2.75rem;
   }
   .frame-main {
     gap: var(--gap-22xl);
@@ -571,30 +568,30 @@
   .text-here2,
   .text-here3 {
     font-size: var(--font-size-lg);
-    line-height: 25px;
+    line-height: 1.563rem;
   }
   .benefits-of-esg {
     font-size: var(--font-size-8xl);
-    line-height: 54px;
+    line-height: 3.375rem;
   }
   .introduction2 {
     font-size: var(--font-size-base);
   }
   .supporting-text6 {
     font-size: var(--font-size-5xl);
-    line-height: 36px;
+    line-height: 2.25rem;
   }
   .supporting-text7,
   .supporting-text8,
   .supporting-text9 {
     font-size: var(--font-size-xl);
-    line-height: 31px;
+    line-height: 1.938rem;
   }
   .go-to-issues {
     font-size: var(--font-size-5xl);
   }
   .supporting-content {
-    gap: 22px;
+    gap: 1.375rem;
   }
   .frame-main {
     gap: var(--gap-xl);
