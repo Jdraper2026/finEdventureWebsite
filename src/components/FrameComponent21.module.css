@@ -1,0 +1,248 @@
+.ourTeam {
+  text-decoration: none;
+  width: 135px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-teal);
+  text-align: right;
+  display: inline-block;
+}
+.finedventure,
+.ourTeamWrapper {
+  position: absolute;
+  white-space: nowrap;
+}
+.ourTeamWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-teal);
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-2xs);
+  background-color: var(--color-honeydew-100);
+  top: 13px;
+  left: 447px;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.businessCompetitonsWrapper:hover,
+.financialLiteracyWrapper:hover,
+.ourTeamWrapper:hover {
+  background-color: var(--color-gainsboro-100);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+}
+.finedventure {
+  margin: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 83px;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 700;
+  font-family: inherit;
+  width: 482px;
+  z-index: 2;
+}
+.frameGroup {
+  height: 83px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  font-family: var(--font-raleway);
+}
+.financialLiteracy {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-honeydew-100);
+  text-align: left;
+  white-space: nowrap;
+}
+.financialLiteracyWrapper,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.financialLiteracyWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-teal);
+  padding: var(--padding-6xs) var(--padding-base) var(--padding-2xs)
+    var(--padding-lgi);
+  background-color: var(--color-teal);
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.businessCompetitonsWrapper:hover,
+.financialLiteracyWrapper:hover {
+  background-color: var(--color-lightseagreen-200);
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+}
+.businessCompetitons {
+  width: 309px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-teal);
+  white-space: pre-wrap;
+  text-align: left;
+  display: inline-block;
+}
+.businessCompetitonsWrapper,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.businessCompetitonsWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-teal);
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-2xs);
+  background-color: var(--color-honeydew-100);
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.businessCompetitonsWrapper:hover {
+  background-color: var(--color-gainsboro-200);
+}
+.frameContainer {
+  width: 371px;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.investments {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.frameDiv,
+.investmentsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.investmentsWrapper {
+  border-radius: var(--br-xl);
+  background-color: var(--color-honeydew-100);
+  border: 1px solid var(--color-teal);
+  flex-direction: row;
+  padding: var(--padding-6xs) var(--padding-mini) var(--padding-2xs)
+    var(--padding-lgi);
+  z-index: 1;
+}
+.frameDiv {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  font-size: var(--font-size-11xl);
+}
+.frameChild {
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-20xl);
+  background-color: var(--color-paleturquoise);
+  z-index: 1;
+}
+.file27 {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  width: 25px;
+  height: 26px;
+  object-fit: cover;
+  z-index: 3;
+}
+.memojivariant12Parent {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+.login {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+  z-index: 2;
+}
+.loginWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-sm);
+}
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-8xs);
+}
+.frameParent,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper1 {
+  width: 173px;
+  flex-direction: column;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-18xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-teal);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1800px) {
+  .businessCompetitons,
+  .login,
+  .loginWrapper {
+    display: none;
+  }
+}
+@media screen and (max-width: 925px) {
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}

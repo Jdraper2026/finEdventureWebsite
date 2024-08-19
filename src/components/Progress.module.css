@@ -1,0 +1,327 @@
+.atWork,
+.weveBeenHard {
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-family: inherit;
+  display: inline-block;
+}
+.weveBeenHard {
+  margin: 0;
+  height: 267px;
+  flex: 1;
+  position: relative;
+  font-weight: 400;
+  max-width: 100%;
+  z-index: 2;
+}
+.atWork {
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -134px;
+  left: 0;
+  font-weight: 600;
+  z-index: 3;
+}
+.progressHeader {
+  width: 1342px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mintcream);
+  border: 0 solid var(--color-teal);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.representatives1 {
+  margin: 0;
+}
+.representatives {
+  align-self: stretch;
+  height: 100px;
+  position: relative;
+  line-height: 50px;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 5;
+}
+.representativesWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-121xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.delimiter,
+.ellipseParent {
+  position: relative;
+  max-width: 100%;
+}
+.delimiter {
+  height: 103px;
+  flex: 1;
+  font-size: var(--font-size-151xl);
+  line-height: 50px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 5;
+  margin-left: -572px;
+}
+.ellipseParent {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-214xl) var(--padding-sm) var(--padding-108xl);
+  box-sizing: border-box;
+}
+.countriesRepresented,
+.div {
+  position: relative;
+  line-height: 50px;
+  text-transform: capitalize;
+  z-index: 5;
+}
+.countriesRepresented {
+  align-self: stretch;
+}
+.div {
+  height: 103px;
+  flex: 1;
+  font-size: var(--font-size-151xl);
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  margin-left: -558px;
+}
+.ellipseGroup,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ellipseGroup {
+  width: 600px;
+  justify-content: flex-start;
+  padding: var(--padding-214xl) 0 var(--padding-158xl) var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.circle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mintcream);
+  border: 0 solid var(--color-teal);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.number,
+.studentsReached {
+  position: relative;
+  line-height: 50px;
+  text-transform: capitalize;
+  z-index: 2;
+}
+.number {
+  height: 103px;
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.studentsReached {
+  align-self: stretch;
+}
+.statistic,
+.statistics,
+.studentsCircle {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.statistics {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-130xl) 0 0;
+  margin-left: -572px;
+  font-size: var(--font-size-21xl);
+}
+.statistic,
+.studentsCircle {
+  flex-direction: row;
+}
+.statistic {
+  width: 600px;
+  justify-content: flex-start;
+  padding: var(--padding-229xl) var(--padding-sm) var(--padding-134xl);
+  position: relative;
+}
+.studentsCircle {
+  width: 1434px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-136xl);
+}
+.statsHighlights {
+  width: 1445px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.progress,
+.progressContent,
+.statsHighlights,
+.statsIntro {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.statsIntro {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+.progress,
+.progressContent {
+  flex-shrink: 0;
+}
+.progressContent {
+  width: 1588px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.progress {
+  width: 1778px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-teal);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .atWork,
+  .weveBeenHard {
+    font-size: var(--font-size-31xl);
+    line-height: 30px;
+  }
+  .representatives {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .delimiter {
+    font-size: var(--font-size-49xl);
+    line-height: 30px;
+  }
+  .ellipseParent {
+    padding-top: var(--padding-132xl);
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+  .countriesRepresented {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .div {
+    font-size: var(--font-size-49xl);
+    line-height: 30px;
+  }
+  .ellipseGroup {
+    padding-top: var(--padding-132xl);
+    padding-bottom: var(--padding-96xl);
+    box-sizing: border-box;
+  }
+  .number {
+    font-size: var(--font-size-43xl);
+    line-height: 30px;
+  }
+  .studentsReached {
+    font-size: var(--font-size-13xl);
+    line-height: 40px;
+  }
+  .statistic {
+    padding-top: var(--padding-142xl);
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+  .progressContent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .atWork,
+  .weveBeenHard {
+    font-size: var(--font-size-11xl);
+    line-height: 20px;
+  }
+  .representatives {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .delimiter {
+    font-size: var(--font-size-23xl);
+    line-height: 20px;
+  }
+  .countriesRepresented {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+  .div,
+  .number {
+    font-size: var(--font-size-23xl);
+    line-height: 20px;
+  }
+  .number {
+    font-size: var(--font-size-20xl);
+  }
+  .studentsReached {
+    font-size: var(--font-size-5xl);
+    line-height: 30px;
+  }
+}

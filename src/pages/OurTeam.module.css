@@ -1,0 +1,227 @@
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.loginWrapper {
+  position: absolute;
+  top: 15px;
+  left: 53px;
+  width: 120px;
+  height: 19px;
+}
+.frameChild,
+.profil {
+  position: relative;
+  display: none;
+}
+.profil {
+  width: 173px;
+  height: 48px;
+  z-index: 0;
+}
+.frameChild {
+  width: 1920px;
+  height: 953px;
+  background: linear-gradient(180deg, #f0fff8, rgba(156, 224, 213, 0.6));
+  max-width: 100%;
+}
+.frameGroup,
+.frameParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  background: linear-gradient(180deg, #f0fff8, rgba(156, 224, 213, 0.6));
+  padding: var(--padding-34xl) var(--padding-37xl) var(--padding-34xl)
+    var(--padding-62xl);
+  gap: 193px;
+}
+.frameGroup,
+.frameParent {
+  padding: 0 0 23.4px;
+}
+.frameParent {
+  align-items: flex-end;
+  padding: 0 0 854px;
+  flex-shrink: 0;
+}
+.frameInner,
+.frameItem,
+.image12Icon {
+  position: absolute;
+  top: 844.8px;
+  left: 239px;
+  width: 1516.4px;
+  height: 1332.3px;
+  object-fit: contain;
+}
+.frameInner,
+.image12Icon {
+  top: 0;
+  left: -86.5px;
+  width: 2455.9px;
+  height: 908.4px;
+  z-index: 1;
+}
+.image12Icon {
+  top: 152.7px;
+  left: 1048px;
+  width: 525px;
+  height: 168.7px;
+  object-fit: cover;
+  z-index: 2;
+}
+.vectorParent {
+  width: 100%;
+  height: 2177.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -3403.4px;
+  left: 0;
+}
+.image8Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.teamPhotos {
+  height: 232px;
+  width: 544px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image10Icon,
+.image9Icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.image9Icon {
+  width: 503px;
+  max-height: 100%;
+}
+.image10Icon {
+  align-self: stretch;
+  height: 147px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image10Wrapper,
+.teamPhotosParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image10Wrapper {
+  height: 190px;
+  width: 577px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.teamPhotosParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-46xl);
+  flex-shrink: 0;
+}
+.ourTeam,
+.teamIntro {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.teamIntro {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-43xl);
+  max-width: 100%;
+}
+.ourTeam {
+  width: 100%;
+  height: 3392px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 625px;
+  gap: 702px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-teal);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1825px) {
+  .teamPhotosParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .rectangleParent {
+    gap: 96px;
+    padding: var(--padding-15xl) var(--padding-9xl) var(--padding-15xl)
+      var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding-bottom: 361px;
+    box-sizing: border-box;
+  }
+  .teamIntro {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .ourTeam {
+    height: auto;
+    gap: 351px;
+  }
+}
+@media screen and (max-width: 925px) {
+  .rectangleParent {
+    gap: 48px;
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    padding-bottom: 235px;
+    box-sizing: border-box;
+  }
+  .teamPhotosParent {
+    gap: var(--gap-13xl);
+  }
+  .ourTeam {
+    gap: var(--gap-156xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .teamPhotosParent {
+    gap: var(--gap-base);
+  }
+}

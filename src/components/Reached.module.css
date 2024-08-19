@@ -1,0 +1,110 @@
+.bernedineViri {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.headOfMarketing {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.testimonialOne {
+  width: 261px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) 0 0;
+  box-sizing: border-box;
+}
+.supportingText1 {
+  top: 0;
+  left: 0;
+  width: 236px;
+  height: 145px;
+}
+.supportingText1,
+.supportingText2,
+.supportingText3 {
+  position: absolute;
+  line-height: 150%;
+  display: inline-block;
+}
+.supportingText2 {
+  top: 191px;
+  left: 86px;
+  font-family: var(--font-montserrat);
+  width: 493px;
+  height: 45px;
+}
+.supportingText3 {
+  top: 0;
+  left: 421px;
+  width: 259px;
+  height: 145px;
+}
+.testimonialTwo {
+  height: 236px;
+  width: 680px;
+  position: relative;
+  max-width: 100%;
+}
+.supportingText4 {
+  width: 260px;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.reached,
+.testimonialsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonialsContent {
+  width: 1501px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.reached {
+  width: 1905px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-teal);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1350px) {
+  .testimonialsContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .supportingText2 {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .supportingText,
+  .supportingText1 {
+    font-size: var(--font-size-xl);
+    line-height: 36px;
+  }
+  .supportingText2 {
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+  }
+  .supportingText3,
+  .supportingText4 {
+    font-size: var(--font-size-xl);
+    line-height: 36px;
+  }
+}

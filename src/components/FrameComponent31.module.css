@@ -1,0 +1,139 @@
+.financialMasteryCurriculum {
+  margin: 0;
+  width: 924px;
+  position: relative;
+  font-size: inherit;
+  line-height: 50px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.exploreEssential,
+.financialConcepts {
+  font-family: var(--font-inter);
+}
+.financialConcepts {
+  font-weight: 600;
+}
+.exploreEssentialFinancialCo {
+  margin: 0;
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.supportingTextWrapper {
+  width: 775px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  min-width: 775px;
+  max-width: 100%;
+}
+.image13Icon {
+  height: 503px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 528px;
+  z-index: 1;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-93xl);
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-mid);
+  box-sizing: border-box;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+.financialMasteryCurriculumParent,
+.frameWrapper,
+.headerInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.financialMasteryCurriculumParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-92xl);
+}
+.headerInner {
+  width: 1730px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-34xl);
+  color: var(--color-teal);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1800px) {
+  .supportingTextWrapper {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .supportingTextWrapper {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 925px) {
+  .financialMasteryCurriculum {
+    font-size: var(--font-size-23xl);
+    line-height: 40px;
+  }
+  .supportingText {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+  }
+  .image13Icon {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: var(--gap-37xl);
+  }
+  .financialMasteryCurriculumParent {
+    gap: var(--gap-36xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .financialMasteryCurriculum {
+    font-size: var(--font-size-13xl);
+    line-height: 30px;
+  }
+  .supportingText {
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+  }
+  .financialMasteryCurriculumParent,
+  .frameParent {
+    gap: var(--gap-9xl);
+  }
+}

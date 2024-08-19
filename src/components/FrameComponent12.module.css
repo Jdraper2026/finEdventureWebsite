@@ -1,0 +1,208 @@
+.esgInvestingEsg {
+  margin-bottom: 0;
+}
+.esgInvestingEsgInvestingI {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-26xl);
+}
+.blankLine {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.supportingText {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.supportingTextWrapper {
+  width: 1144px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameChild {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 155, 133, 0.14),
+    rgba(66, 179, 161, 0.15) 12.42%,
+    rgba(240, 255, 248, 0.2)
+  );
+  width: 561px;
+  z-index: 3;
+}
+.supportingText1 {
+  position: absolute;
+  top: 2838px;
+  left: 221px;
+  line-height: 150%;
+  font-weight: 600;
+  display: inline-block;
+  width: 779px;
+  height: 60px;
+  z-index: 4;
+}
+.rectangleParent {
+  height: 4123px;
+  width: 1000px;
+  position: absolute;
+  margin: 0 !important;
+  top: -2921px;
+  left: -217px;
+}
+.httpswwwyoutubecomwatch1 {
+  text-decoration: underline;
+}
+.httpswwwyoutubecomwatch {
+  color: inherit;
+}
+.supportingText2 {
+  width: 1252px;
+  position: relative;
+  font-size: var(--font-size-15xl);
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  max-height: 642px;
+  word-break: break-word;
+  z-index: 4;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  flex-direction: row;
+  position: relative;
+  font-size: var(--font-size-21xl);
+}
+.frameGroup {
+  flex-direction: column;
+  gap: var(--gap-117xl);
+}
+.goToThe {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.goToTheEsgRankingSystemsWrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-teal);
+  padding: var(--padding-6xs) var(--padding-lg) var(--padding-3xs)
+    var(--padding-lgi);
+  background-color: var(--color-honeydew-100);
+  width: 596px;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.goToTheEsgRankingSystemsWrapper:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+}
+.frameParent,
+.frameWrapper,
+.goToTheEsgRankingSystemsWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1252px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-252xl);
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .frameGroup {
+    gap: var(--gap-49xl);
+  }
+  .frameParent {
+    gap: var(--gap-116xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .supportingText {
+    font-size: var(--font-size-8xl);
+    line-height: 41px;
+  }
+  .supportingText1 {
+    font-size: var(--font-size-13xl);
+    line-height: 48px;
+  }
+  .supportingText2 {
+    font-size: var(--font-size-8xl);
+    line-height: 41px;
+  }
+  .goToThe {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameGroup {
+    gap: var(--gap-15xl);
+  }
+  .frameParent {
+    gap: var(--gap-49xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .supportingText {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .supportingText1 {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+  }
+  .supportingText2 {
+    font-size: var(--font-size-xl);
+    line-height: 31px;
+  }
+  .frameGroup {
+    gap: var(--gap-mid);
+  }
+  .goToThe {
+    font-size: var(--font-size-5xl);
+  }
+  .frameParent {
+    gap: var(--gap-15xl);
+  }
+}
