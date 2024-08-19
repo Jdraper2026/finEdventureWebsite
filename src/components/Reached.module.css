@@ -1,0 +1,110 @@
+.bernedineViri {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.headOfMarketing {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.testimonialOne {
+  width: 16.313rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl) 0 0;
+  box-sizing: border-box;
+}
+.supportingText1 {
+  top: 0;
+  left: 0;
+  width: 14.75rem;
+  height: 9.063rem;
+}
+.supportingText1,
+.supportingText2,
+.supportingText3 {
+  position: absolute;
+  line-height: 150%;
+  display: inline-block;
+}
+.supportingText2 {
+  top: 11.938rem;
+  left: 5.375rem;
+  font-family: var(--font-montserrat);
+  width: 30.813rem;
+  height: 2.813rem;
+}
+.supportingText3 {
+  top: 0;
+  left: 26.313rem;
+  width: 16.188rem;
+  height: 9.063rem;
+}
+.testimonialTwo {
+  height: 14.75rem;
+  width: 42.5rem;
+  position: relative;
+  max-width: 100%;
+}
+.supportingText4 {
+  width: 16.25rem;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.reached,
+.testimonialsContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.testimonialsContent {
+  width: 93.813rem;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.reached {
+  width: 119.063rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-teal);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1350px) {
+  .testimonialsContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .supportingText2 {
+    font-size: var(--font-size-5xl);
+    line-height: 2.25rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .supportingText,
+  .supportingText1 {
+    font-size: var(--font-size-xl);
+    line-height: 2.25rem;
+  }
+  .supportingText2 {
+    font-size: var(--font-size-lg);
+    line-height: 1.688rem;
+  }
+  .supportingText3,
+  .supportingText4 {
+    font-size: var(--font-size-xl);
+    line-height: 2.25rem;
+  }
+}

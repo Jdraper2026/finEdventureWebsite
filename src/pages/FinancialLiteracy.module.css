@@ -1,0 +1,462 @@
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  white-space: pre-wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.loginWrapper {
+  position: absolute;
+  top: 0.938rem;
+  left: 3.313rem;
+  width: 7.5rem;
+  height: 1.188rem;
+}
+.profil {
+  width: 10.813rem;
+  height: 3rem;
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.header,
+.headerChild {
+  background: linear-gradient(180deg, #f0fff8, #dffeef);
+  max-width: 100%;
+}
+.headerChild {
+  width: 120rem;
+  height: 73.625rem;
+  position: relative;
+  display: none;
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) var(--padding-37xl) 8.562rem var(--padding-62xl);
+  box-sizing: border-box;
+  gap: 15.062rem;
+  flex-shrink: 0;
+}
+.frameChild,
+.frameItem {
+  position: absolute;
+  object-fit: contain;
+}
+.frameChild {
+  top: 52.8rem;
+  left: 14.938rem;
+  width: 94.775rem;
+  height: 83.269rem;
+}
+.frameItem {
+  top: 0;
+  left: -5.406rem;
+  width: 153.494rem;
+  height: 56.775rem;
+  z-index: 1;
+}
+.image12Icon {
+  position: absolute;
+  top: 9.544rem;
+  left: 65.5rem;
+  width: 32.813rem;
+  height: 10.544rem;
+  object-fit: cover;
+  z-index: 2;
+}
+.vectorParent {
+  width: 100%;
+  height: 136.069rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -212.712rem;
+  left: 0;
+}
+.frameInner,
+.quickReads {
+  position: relative;
+  max-width: 100%;
+}
+.frameInner {
+  width: 120rem;
+  height: 138.375rem;
+  background: linear-gradient(0deg, #f0fff8, rgba(156, 224, 213, 0.6));
+  display: none;
+}
+.quickReads {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 2;
+}
+.quickReadsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) 0 var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mindyourmoneyblog {
+  font-weight: 600;
+}
+.supportingText {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 150%;
+  color: var(--color-darkslategray);
+  mix-blend-mode: normal;
+  z-index: 2;
+  font-family: var(--font-inter);
+}
+.quickReadsHeaderContainer {
+  width: 58.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-47xl);
+  max-width: 100%;
+}
+.quickReadsHeaderContainerWrapper {
+  width: 104.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image38Icon,
+.supportingText1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.image38Icon {
+  height: 14.588rem;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.supportingText1 {
+  line-height: 150%;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  mix-blend-mode: normal;
+}
+.image38Parent {
+  width: 21.875rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xl-6);
+}
+.frameContainer,
+.image38Parent,
+.image39Parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.image39Parent {
+  width: 21.875rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-14xl-6);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.supportingText6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 2.375rem;
+  font-weight: 500;
+  color: inherit;
+  text-decoration: none;
+  mix-blend-mode: normal;
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-60xl);
+}
+.frameGroup,
+.frameParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent1 {
+  align-self: stretch;
+  gap: 4.625rem;
+}
+.frameParent {
+  width: 104.75rem;
+  gap: var(--gap-93xl);
+  font-size: var(--font-size-6xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+.financialLiteracyInner,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rectangleParent {
+  flex: 1;
+  background: linear-gradient(0deg, #f0fff8, rgba(156, 224, 213, 0.6));
+  flex-direction: column;
+  align-items: center;
+  padding: 4.625rem var(--padding-xl) 9.812rem;
+  gap: 4.875rem;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-41xl);
+  color: var(--color-teal);
+  font-family: var(--font-montserrat);
+}
+.financialLiteracyInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 58.187rem;
+}
+.image8Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image8Wrapper {
+  height: 14.5rem;
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image10Icon,
+.image9Icon {
+  position: relative;
+  max-width: 100%;
+  object-fit: cover;
+}
+.image9Icon {
+  width: 31.438rem;
+  max-height: 100%;
+}
+.image10Icon {
+  align-self: stretch;
+  height: 9.188rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.image10Wrapper,
+.imageTrioContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image10Wrapper {
+  height: 11.875rem;
+  width: 36.063rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.imageTrioContainer {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-46xl);
+  flex-shrink: 0;
+}
+.financialLiteracyChild,
+.imageTrioContainerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.imageTrioContainerWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-43xl) 43.875rem;
+}
+.financialLiteracyChild {
+  width: 111.125rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  flex-shrink: 0;
+}
+.financialLiteracy {
+  width: 100%;
+  height: 212rem;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-teal);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1800px) {
+  .frameContainer,
+  .imageTrioContainer {
+    flex-wrap: wrap;
+  }
+  .financialLiteracy {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .header {
+    gap: 7.5rem;
+    padding: var(--padding-15xl) var(--padding-9xl) 5.563rem var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .quickReadsHeaderContainer {
+    gap: var(--gap-14xl);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-12xl);
+    padding-bottom: 4.125rem;
+    box-sizing: border-box;
+  }
+  .financialLiteracyInner {
+    padding-bottom: 24.563rem;
+    box-sizing: border-box;
+  }
+  .imageTrioContainerWrapper {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    padding-bottom: 28.5rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .header {
+    gap: var(--gap-41xl);
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+  .quickReads {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+  .supportingText {
+    font-size: var(--font-size-5xl);
+    line-height: 2.25rem;
+  }
+  .quickReadsHeaderContainer {
+    gap: var(--gap-base);
+  }
+  .frameGroup {
+    gap: var(--gap-20xl);
+  }
+  .frameParent1 {
+    gap: var(--gap-18xl);
+  }
+  .frameParent {
+    gap: var(--gap-37xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-20xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-24xl);
+    box-sizing: border-box;
+  }
+  .financialLiteracyInner {
+    padding-bottom: 15.938rem;
+    box-sizing: border-box;
+  }
+  .imageTrioContainer {
+    gap: var(--gap-13xl);
+  }
+  .imageTrioContainerWrapper {
+    padding-bottom: 18.5rem;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .quickReads {
+    font-size: var(--font-size-17xl);
+    line-height: 1.875rem;
+  }
+  .supportingText {
+    font-size: var(--font-size-lg);
+    line-height: 1.688rem;
+  }
+  .supportingText1 {
+    font-size: var(--font-size-xl);
+    line-height: 1.875rem;
+  }
+  .image39Parent {
+    gap: var(--gap-mid);
+  }
+  .supportingText6 {
+    font-size: var(--font-size-xl);
+    line-height: 1.875rem;
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+  .frameParent1 {
+    gap: var(--gap-lg);
+  }
+  .frameParent {
+    gap: var(--gap-9xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-lgi);
+  }
+  .financialLiteracyInner {
+    padding-bottom: 10.375rem;
+    box-sizing: border-box;
+  }
+  .imageTrioContainer {
+    gap: var(--gap-base);
+  }
+}

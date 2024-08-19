@@ -1,0 +1,212 @@
+.supportingText {
+  margin: 0;
+  width: 55.313rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.esgInvestingIs {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.supportingText1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-15xl);
+  line-height: 150%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 4;
+}
+.supportingTextParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+  max-width: 100%;
+}
+.supportingText2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 4;
+}
+.frameChild {
+  height: 161.75rem;
+  width: 35.063rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -56.687rem;
+  left: -14.125rem;
+  background: linear-gradient(
+    90deg,
+    rgba(11, 155, 133, 0.14),
+    rgba(66, 179, 161, 0.15) 12.42%,
+    rgba(240, 255, 248, 0.2)
+  );
+  z-index: 3;
+}
+.performanceManyEsgFundsHa,
+.supportingText3 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.performanceManyEsgFundsHa {
+  padding-left: var(--padding-26xl);
+}
+.supportingText3 {
+  height: 74rem;
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  font-weight: 400;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.frameWrapper,
+.rectangleParent,
+.supportingTextGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper,
+.supportingTextGroup {
+  box-sizing: border-box;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.supportingTextGroup {
+  width: 78.563rem;
+  flex-direction: column;
+  padding: 0 0 var(--padding-210xl);
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-15xl);
+}
+.goToIssues {
+  width: 33.813rem;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.navigationContent {
+  cursor: pointer;
+  border: 1px solid var(--color-teal);
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-3xs);
+  background-color: var(--color-honeydew-100);
+  width: 37.25rem;
+  border-radius: var(--br-xl);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.navigationContent:hover {
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-lightseagreen-200);
+  box-sizing: border-box;
+}
+.navigation,
+.navigationContent,
+.supportingContent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.navigation {
+  width: 77.75rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.supportingContent {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-70xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .supportingTextGroup {
+    padding-bottom: var(--padding-130xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .supportingText {
+    font-size: var(--font-size-13xl);
+    line-height: 3rem;
+  }
+  .supportingText1,
+  .supportingText2,
+  .supportingText3 {
+    font-size: var(--font-size-8xl);
+    line-height: 2.563rem;
+  }
+  .goToIssues {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .supportingTextParent {
+    gap: var(--gap-base);
+  }
+  .supportingTextGroup {
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+  .supportingContent {
+    gap: var(--gap-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .supportingText {
+    font-size: var(--font-size-5xl);
+    line-height: 2.25rem;
+  }
+  .supportingText1,
+  .supportingText2,
+  .supportingText3 {
+    font-size: var(--font-size-xl);
+    line-height: 1.938rem;
+  }
+  .goToIssues {
+    font-size: var(--font-size-5xl);
+  }
+  .supportingContent {
+    gap: var(--gap-3xl);
+  }
+}

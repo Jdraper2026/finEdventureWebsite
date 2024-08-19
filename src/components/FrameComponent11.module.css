@@ -1,0 +1,328 @@
+.atWork,
+.weveBeenHard {
+  font-size: inherit;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-family: inherit;
+  display: inline-block;
+}
+.weveBeenHard {
+  margin: 0;
+  height: 16.688rem;
+  flex: 1;
+  position: relative;
+  font-weight: 400;
+  max-width: 100%;
+  z-index: 2;
+}
+.atWork {
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: -8.375rem;
+  left: 0;
+  font-weight: 600;
+  z-index: 3;
+}
+.weveBeenHardParent {
+  width: 83.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mintcream);
+  border: 0 solid var(--color-teal);
+  box-sizing: border-box;
+  z-index: 4;
+}
+.representatives1 {
+  margin: 0;
+}
+.representatives {
+  margin: 0;
+  align-self: stretch;
+  height: 6.25rem;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 5;
+}
+.representativesWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-121xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ellipseParent,
+.separator {
+  position: relative;
+  max-width: 100%;
+}
+.separator {
+  height: 6.438rem;
+  flex: 1;
+  font-size: var(--font-size-151xl);
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 5;
+  margin-left: -35.75rem;
+}
+.ellipseParent {
+  width: 37.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-214xl) var(--padding-sm) var(--padding-108xl);
+  box-sizing: border-box;
+}
+.countriesRepresented,
+.div {
+  position: relative;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  z-index: 5;
+}
+.countriesRepresented {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.div {
+  height: 6.438rem;
+  flex: 1;
+  font-size: var(--font-size-151xl);
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  margin-left: -34.875rem;
+}
+.ellipseGroup,
+.statisticsData {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.ellipseGroup {
+  width: 37.5rem;
+  justify-content: flex-start;
+  padding: var(--padding-214xl) 0 var(--padding-158xl) var(--padding-sm);
+  box-sizing: border-box;
+  position: relative;
+}
+.statisticsData {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.studentsReachedContentChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mintcream);
+  border: 0 solid var(--color-teal);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.studentsReached,
+.studentsReachedNumber {
+  position: relative;
+  line-height: 3.125rem;
+  text-transform: capitalize;
+  z-index: 2;
+}
+.studentsReachedNumber {
+  height: 6.438rem;
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.studentsReached {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.studentsReachedWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-130xl) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-left: -35.75rem;
+  font-size: var(--font-size-21xl);
+}
+.studentsReachedContent,
+.studentsReachedContentWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.studentsReachedContent {
+  width: 37.5rem;
+  justify-content: flex-start;
+  padding: var(--padding-229xl) var(--padding-sm) var(--padding-134xl);
+  position: relative;
+}
+.studentsReachedContentWrapper {
+  width: 89.625rem;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-136xl);
+}
+.statisticsContent {
+  width: 90.313rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.frameParent,
+.statisticsContent,
+.statisticsContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.statisticsContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+}
+.frameParent {
+  width: 99.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-81xl);
+  color: var(--color-teal);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 1350px) {
+  .statisticsData {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .atWork,
+  .weveBeenHard {
+    font-size: var(--font-size-31xl);
+    line-height: 1.875rem;
+  }
+  .representatives {
+    font-size: var(--font-size-13xl);
+    line-height: 2.5rem;
+  }
+  .separator {
+    font-size: var(--font-size-49xl);
+    line-height: 1.875rem;
+  }
+  .ellipseParent {
+    padding-top: var(--padding-132xl);
+    padding-bottom: var(--padding-64xl);
+    box-sizing: border-box;
+  }
+  .countriesRepresented {
+    font-size: var(--font-size-13xl);
+    line-height: 2.5rem;
+  }
+  .div {
+    font-size: var(--font-size-49xl);
+    line-height: 1.875rem;
+  }
+  .ellipseGroup {
+    padding-top: var(--padding-132xl);
+    padding-bottom: var(--padding-96xl);
+    box-sizing: border-box;
+  }
+  .studentsReachedNumber {
+    font-size: var(--font-size-43xl);
+    line-height: 1.875rem;
+  }
+  .studentsReached {
+    font-size: var(--font-size-13xl);
+    line-height: 2.5rem;
+  }
+  .studentsReachedContent {
+    padding-top: var(--padding-142xl);
+    padding-bottom: var(--padding-80xl);
+    box-sizing: border-box;
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .atWork,
+  .weveBeenHard {
+    font-size: var(--font-size-11xl);
+    line-height: 1.25rem;
+  }
+  .representatives {
+    font-size: var(--font-size-5xl);
+    line-height: 1.875rem;
+  }
+  .separator {
+    font-size: var(--font-size-23xl);
+    line-height: 1.25rem;
+  }
+  .countriesRepresented {
+    font-size: var(--font-size-5xl);
+    line-height: 1.875rem;
+  }
+  .div {
+    font-size: var(--font-size-23xl);
+    line-height: 1.25rem;
+  }
+  .studentsReachedNumber {
+    font-size: var(--font-size-20xl);
+    line-height: 1.25rem;
+  }
+  .studentsReached {
+    font-size: var(--font-size-5xl);
+    line-height: 1.875rem;
+  }
+}

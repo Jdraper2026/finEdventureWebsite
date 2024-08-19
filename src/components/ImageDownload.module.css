@@ -1,0 +1,44 @@
+.imageComponents {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-7xs);
+}
+.download7RemovebgPreviewIcon {
+  height: 2.75rem;
+  width: 2.875rem;
+  position: relative;
+  object-fit: cover;
+}
+.imageComponents1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-5xs);
+}
+.downloadRemovebgPreview2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.removebgPreview1Icon {
+  height: 3rem;
+  width: 3rem;
+  position: relative;
+  object-fit: cover;
+}
+.imageDownload {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+}
