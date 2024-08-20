@@ -75,9 +75,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<OurTeam />} />
-      <Route path="/homepage" element={<Homepage />} />
-      <Route path="/financial-literacy" element={<FinancialLiteracy />} />
+      <Route path="/" element={<Homepage />} />
+      <Route path="/ourTeam" element={<OurTeam />} />
+      <Route path="/financialLiteracy" element={<FinancialLiteracy />} />
       <Route path="/ranking" element={<Ranking />} />
       <Route path="/benefits" element={<Benefits />} />
       <Route path="/intro" element={<Intro />} />

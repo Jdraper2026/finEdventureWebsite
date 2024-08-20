@@ -15,19 +15,19 @@ const Content: FunctionComponent<ContentType> = ({ className = "" }) => {
             <div className={styles.esgiIssuesTitle}>
               <div className={styles.introductionContentWrapper}>
                 <div className={styles.introductionContent}>
-                  <div className={styles.introduction}>Introduction</div>
+                  <a className={styles.introduction} href="intro" style={{color:"inherit", textDecoration:"none"}}>Introduction</a>
                 </div>
               </div>
               <div className={styles.rankingSystemsWrapper}>
-                <div className={styles.rankingSystems1}>Ranking Systems</div>
+                <a className={styles.rankingSystems1} href="ranking" style={{color:"inherit", textDecoration:"none"}}>Ranking Systems</a>
               </div>
               <div className={styles.benefitsContentWrapper}>
                 <button className={styles.benefitsContent}>
-                  <div className={styles.benefitsOfEsgi}>Benefits of ESGI</div>
+                  <a className={styles.benefitsOfEsgi} href="benefits" style={{textDecoration:"none"}}>Benefits of ESGI</a>
                 </button>
               </div>
               <button className={styles.issuesOfEsgRankingWrapper}>
-                <div className={styles.issuesOfEsg}>Issues of ESG Ranking</div>
+                <a className={styles.issuesOfEsg} href="issues" style={{textDecoration:"none"}}>Issues of ESG Ranking</a>
               </button>
             </div>
           </div>

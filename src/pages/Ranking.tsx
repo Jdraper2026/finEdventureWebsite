@@ -16,6 +16,7 @@ const Ranking: FunctionComponent = () => {
         <div className={styles.frameChild} />
         <Content />
         <FrameComponent />
+        
         <section className={styles.rectangleGroup}>
           <div className={styles.frameItem} />
           <img

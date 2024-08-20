@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import MemojiVariant2 from "../components/MemojiVariant2";
 import FrameComponent21 from "../components/FrameComponent21";
+import FrameComponent2 from "../components/FrameComponent2";
 import FrameComponent31 from "../components/FrameComponent31";
 import FrameComponent11 from "../components/FrameComponent11";
 import styles from "./FinancialLiteracy.module.css";
@@ -17,6 +18,7 @@ const FinancialLiteracy: FunctionComponent = () => {
       <div className={styles.header}>
         <div className={styles.headerChild} />
         <FrameComponent21 />
+        {/* <FrameComponent2/> */}
         <FrameComponent31 />
       </div>
       <div className={styles.vectorParent}>

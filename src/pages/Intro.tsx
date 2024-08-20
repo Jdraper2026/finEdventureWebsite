@@ -10,6 +10,7 @@ const Intro: FunctionComponent = () => {
       <div className={styles.textHere1}>Text here</div>
       <div className={styles.introInner}>
         <div className={styles.frameParent}>
+          <div> to home placeholder</div>
           <div className={styles.file22Wrapper}>
             <img
               className={styles.removebgPreview1Icon}

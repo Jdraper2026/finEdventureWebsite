@@ -78,7 +78,7 @@ const FrameComponent12: FunctionComponent<FrameComponent12Type> = ({
       </div>
       <div className={styles.frameWrapper}>
         <button className={styles.goToTheEsgRankingSystemsWrapper}>
-          <div className={styles.goToThe}>Go to the ESG Ranking Systems</div>
+          <a className={styles.goToThe} href="ranking" style={{color:"inherit", textDecoration:"none"}}>Go to the ESG Ranking Systems</a>
         </button>
       </div>
     </section>

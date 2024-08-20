@@ -86,9 +86,9 @@ const SupportingContent: FunctionComponent<SupportingContentType> = ({
       </div>
       <div className={styles.navigation}>
         <button className={styles.navigationContent}>
-          <div
-            className={styles.goToIssues}
-          >{`Go to Issues of ESG Ranking `}</div>
+          <a className={styles.goToIssues} href="issues" style={{color:"inherit", textDecoration:"none"}}>
+            Go to Issues of ESG Ranking</a>
+
         </button>
       </div>
     </section>

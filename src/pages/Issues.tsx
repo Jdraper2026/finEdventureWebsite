@@ -8,6 +8,7 @@ const Issues: FunctionComponent = () => {
       <div className={styles.textHere}>Text here</div>
       <div className={styles.main}>
         <div className={styles.content}>
+        <div style={{marginLeft:"-3.125rem"}}> to home placeholder align in center</div>
           <div className={styles.leftPane}>
             <img
               className={styles.removebgPreview1Icon}
@@ -56,7 +57,7 @@ const Issues: FunctionComponent = () => {
         <h1 className={styles.supportingText}>Issues of ESG Ranking Systems</h1>
         <section className={styles.supportVisualParent}>
           <div className={styles.supportVisual} />
-          <h2 className={styles.supportingText1}>
+          <h2 className={styles.supportingText1} style={{fontWeight:"normal"}}>
             <ul className={styles.rankingScoreDivergenceTher}>
               <li className={styles.rankingScoreDivergenceTher1}>
                 <span className={styles.rankingScoreDivergence}>

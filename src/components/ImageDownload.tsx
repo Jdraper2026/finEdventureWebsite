@@ -10,6 +10,7 @@ const ImageDownload: FunctionComponent<ImageDownloadType> = ({
 }) => {
   return (
     <div className={[styles.imageDownload, className].join(" ")}>
+      <div style={{marginLeft:"-3.125rem"}}> to home placeholder align in center</div>
       <div className={styles.imageComponents}>
         <img
           className={styles.removebgPreview1Icon}

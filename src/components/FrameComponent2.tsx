@@ -11,14 +11,14 @@ const FrameComponent2: FunctionComponent<FrameComponent2Type> = ({
 }) => {
   return (
     <header className={[styles.finedventureParent, className].join(" ")}>
-      <h2 className={styles.finedventure}>FinEdVenture</h2>
+      <h2 className={styles.finedventure}><a href="/" style={{all:'inherit'}}>FinEdVenture</a></h2>
       <div className={styles.finLiteracyContainerWrapper}>
         <div className={styles.finLiteracyContainer}>
           <button className={styles.teamLiteracyInvestments}>
-            <a className={styles.ourTeam}> Our Team</a>
+            <a className={styles.ourTeam} href="ourTeam"> Our Team</a>
           </button>
           <button className={styles.teamLiteracyInvestments1}>
-            <div className={styles.financialLiteracy}>Financial Literacy</div>
+            <div className={styles.financialLiteracy}> <a href="FinancialLiteracy" style={{all:'inherit'}}>Financial Literacy</a></div>
           </button>
           <div className={styles.finLiteracyContainerInner}>
             <button className={styles.businessCompetitonsWrapper}>

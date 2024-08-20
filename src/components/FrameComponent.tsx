@@ -61,9 +61,9 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
             </div>
             <div className={styles.supportingSevenContentWrapper}>
               <button className={styles.supportingSevenContent}>
-                <div className={styles.goToThe}>
+                <a className={styles.goToThe} href="benefits" style={{color:"inherit", textDecoration:"none"}}>
                   Go to the Benefits of ESG Investing
-                </div>
+                </a>
               </button>
             </div>
           </div>

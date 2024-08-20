@@ -26,7 +26,7 @@ const Benefits: FunctionComponent = () => {
               <div className={styles.frameParent}>
                 <div className={styles.headerItemsParent}>
                   <div className={styles.headerItems}>
-                    <div className={styles.introduction}>Introduction</div>
+                    <a className={styles.introduction} href="intro" style={{color:"inherit", textDecoration:"none"}}>Introduction</a>
                   </div>
                   <div className={styles.headerDivider}>
                     <img
@@ -37,15 +37,15 @@ const Benefits: FunctionComponent = () => {
                     />
                   </div>
                   <button className={styles.headerItems1}>
-                    <div className={styles.rankingSystems}>Ranking Systems</div>
+                    <a className={styles.rankingSystems} href="ranking" style={{textDecoration:"none"}}>Ranking Systems</a>
                   </button>
                 </div>
                 <div className={styles.benefitsDetails}>
                   <div className={styles.benefitsContent}>
                     <button className={styles.detailsContent}>
-                      <div className={styles.benefitsOfEsgi}>
+                      <a className={styles.benefitsOfEsgi} href="benefits" style={{textDecoration:"none"}}>
                         Benefits of ESGI
-                      </div>
+                      </a>
                     </button>
                     <div className={styles.contentSeparator}>
                       <img
@@ -58,9 +58,9 @@ const Benefits: FunctionComponent = () => {
                   </div>
                 </div>
                 <button className={styles.issuesOfEsgRankingWrapper}>
-                  <div className={styles.rankingSystems}>
+                  <a className={styles.rankingSystems} href="issues" style={{textDecoration:"none"}}>
                     Issues of ESG Ranking
-                  </div>
+                  </a>
                 </button>
               </div>
             </div>

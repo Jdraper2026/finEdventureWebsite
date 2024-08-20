@@ -16,7 +16,7 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
           <div className={styles.introHeaderParent}>
             <div className={styles.introHeader}>
               <div className={styles.introHeaderItems}>
-                <div className={styles.introduction}>Introduction</div>
+                <a className={styles.introduction} href="intro" style={{color:"inherit", textDecoration:"none"}}>Introduction</a>
               </div>
               <div className={styles.introDivider}>
                 <img
@@ -27,13 +27,13 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
                 />
               </div>
               <button className={styles.introHeaderItems1}>
-                <div className={styles.rankingSystems}>Ranking Systems</div>
+                <a className={styles.rankingSystems} href="ranking" style={{textDecoration:"none"}}>Ranking Systems</a>
               </button>
             </div>
             <div className={styles.benefitsContentWrapper}>
               <div className={styles.benefitsContent}>
                 <button className={styles.benefitsItem}>
-                  <div className={styles.benefitsOfEsgi}>Benefits of ESGI</div>
+                  <a className={styles.benefitsOfEsgi} href="benefits" style={{textDecoration:"none"}}>Benefits of ESGI</a>
                 </button>
                 <div className={styles.benefitsDivider}>
                   <img
@@ -46,7 +46,7 @@ const FrameComponent6: FunctionComponent<FrameComponent6Type> = ({
               </div>
             </div>
             <button className={styles.issuesOfEsgRankingWrapper}>
-              <div className={styles.issuesOfEsg1}>Issues of ESG Ranking</div>
+              <a className={styles.issuesOfEsg1} href="issues" style={{textDecoration:"none"}}>Issues of ESG Ranking</a>
             </button>
           </div>
         </div>

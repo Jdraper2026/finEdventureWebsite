@@ -7,7 +7,9 @@ export type DownloadType = {
 
 const Download: FunctionComponent<DownloadType> = ({ className = "" }) => {
   return (
+    
     <div className={[styles.download, className].join(" ")}>
+       <div style={{marginLeft:"-3.125rem"}}> to home placeholder align in center</div>
       <div className={styles.file22Wrapper}>
         <img
           className={styles.removebgPreview1Icon}

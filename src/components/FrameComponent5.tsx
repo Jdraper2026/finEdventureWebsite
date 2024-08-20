@@ -18,7 +18,7 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
           <div className={styles.frameGroup}>
             <div className={styles.rankingTitlesParent}>
               <div className={styles.rankingTitles}>
-                <div className={styles.introduction1}>Introduction</div>
+                <a className={styles.introduction1} href="intro" style={{color:"inherit", textDecoration:"inherit"}}>Introduction</a>
               </div>
               <div className={styles.vectorWrapper}>
                 <img
@@ -29,13 +29,13 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
                 />
               </div>
               <button className={styles.rankingTitles1}>
-                <a className={styles.rankingSystems}>Ranking Systems</a>
+                <a className={styles.rankingSystems} href="Ranking">Ranking Systems</a>
               </button>
             </div>
             <div className={styles.frameDiv}>
               <div className={styles.frameParent1}>
                 <button className={styles.benefitsOfEsgiWrapper}>
-                  <div className={styles.benefitsOfEsgi}>Benefits of ESGI</div>
+                  <a className={styles.benefitsOfEsgi} href="benefits" style={{textDecoration:"inherit"}}>Benefits of ESGI</a>
                 </button>
                 <div className={styles.vectorContainer}>
                   <img
@@ -48,7 +48,7 @@ const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
               </div>
             </div>
             <button className={styles.issuesOfEsgRankingWrapper}>
-              <a className={styles.rankingSystems}>Issues of ESG Ranking</a>
+              <a className={styles.rankingSystems} href="issues">Issues of ESG Ranking</a>
             </button>
           </div>
         </div>

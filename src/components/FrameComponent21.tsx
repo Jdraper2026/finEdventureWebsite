@@ -13,13 +13,13 @@ const FrameComponent21: FunctionComponent<FrameComponent21Type> = ({
     <header className={[styles.frameParent, className].join(" ")}>
       <div className={styles.frameGroup}>
         <button className={styles.ourTeamWrapper}>
-          <a className={styles.ourTeam}> Our Team</a>
+          <a className={styles.ourTeam} href="OurTeam"> Our Team</a>
         </button>
-        <h1 className={styles.finedventure}>FinEdVenture</h1>
+        <h1 className={styles.finedventure}><a href="/" style={{all:'inherit'}}>FinEdVenture</a></h1>
       </div>
       <div className={styles.frameWrapper}>
         <button className={styles.financialLiteracyWrapper}>
-          <div className={styles.financialLiteracy}>Financial Literacy</div>
+          <div className={styles.financialLiteracy}><a href="FinancialLiteracy" style={{all:'inherit'}}>Financial Literacy</a></div>
         </button>
       </div>
       <div className={styles.frameContainer}>

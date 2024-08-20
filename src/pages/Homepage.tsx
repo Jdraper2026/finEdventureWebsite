@@ -64,15 +64,16 @@ const Homepage: FunctionComponent = () => {
       <section className={styles.homepageItem} />
       <section className={styles.homepageInner}>
         <header className={styles.finedventureParent}>
-          <h2 className={styles.finedventure}>FinEdVenture</h2>
+          <h2 className={styles.finedventure}><a href="" style={{all:'inherit'}}>FinEdVenture</a></h2>
           <div className={styles.frameContainer}>
             <div className={styles.menuOptionsParent}>
               <button className={styles.menuOptions}>
-                <a className={styles.ourTeam}> Our Team</a>
+                <a className={styles.ourTeam} href="ourTeam">Our Team</a>
               </button>
               <button className={styles.menuOptions1}>
                 <div className={styles.financialLiteracy}>
-                  Financial Literacy
+                <a href="FinancialLiteracy" style={{all:'inherit'}}>Financial Literacy</a>
+                  
                 </div>
               </button>
               <div className={styles.competitionsLink}>
